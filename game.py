@@ -6,13 +6,6 @@ import numpy as np
 
 pygame.init()
 font = pygame.font.Font('arial.ttf', 25)
-#font = pygame.font.SysFont('arial', 25)
-
-# Reset function
-# Reward
-# Play(action) -> direction
-# Game iteration
-# Check for collision
 
 class Direction(Enum):
     RIGHT = 1
